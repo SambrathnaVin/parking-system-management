@@ -3,12 +3,12 @@ import java.time.format.DateTimeFormatter;
 
 public class Vehicle {
     
-    private int vehicleId;
-    private String vehicleType;
-    private String vehicleModel;
-    private String vehicleColor;
-    private String plateNumber;
-    private LocalDate registrationDate;
+    int vehicleId;
+    String vehicleType;
+    String vehicleModel;
+    String vehicleColor;
+    String plateNumber;
+    LocalDate registrationDate;
     
     
     public Vehicle(int vehicleId, String vehicleType, String vehicleModel, 
