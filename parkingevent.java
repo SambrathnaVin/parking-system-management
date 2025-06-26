@@ -1,6 +1,5 @@
+
 public class parkingevent {
-    // Represents a ParkingEvent entity based on the provided ER diagram.
-public class ParkingEvent {
 
     // Unique identifier for the parking event.
     private String eventID;
@@ -38,7 +37,7 @@ public class ParkingEvent {
      * @param slotID The identifier for the parking slot.
      * @param staffID The identifier for the staff member.
      */
-    public ParkingEvent(String eventID, String vehicleID, String entryTime, String exitTime,
+    public parkingevent(String eventID, String vehicleID, String entryTime, String exitTime,
                         String duration, double feeAmount, String slotID, String staffID) {
         this.eventID = eventID;
         this.vehicleID = vehicleID;
@@ -202,4 +201,4 @@ public class ParkingEvent {
     }
 }
 
-}
+
