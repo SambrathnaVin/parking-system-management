@@ -10,7 +10,7 @@ public class slot {
     private Date lastUpdated; // Composite (date + time)
 
     // Constructor
-    public slottracker(int slotId, String slotStatus, SlotLocation slotLocation,
+    public slot(int slotId, String slotStatus, SlotLocation slotLocation,
                        String slotType, String slotSize, String isReserved, Date lastUpdated) {
         this.slotId = slotId;
         this.slotStatus = slotStatus;
