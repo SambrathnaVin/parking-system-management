@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class SlotTracker {
+public class slot {
     private int slotId; // Unique and mandatory
     private String slotStatus; // Occupied, Free
     private SlotLocation slotLocation; // Composite and mandatory
@@ -10,7 +10,7 @@ public class SlotTracker {
     private Date lastUpdated; // Composite (date + time)
 
     // Constructor
-    public SlotTracker(int slotId, String slotStatus, SlotLocation slotLocation,
+    public slottracker(int slotId, String slotStatus, SlotLocation slotLocation,
                        String slotType, String slotSize, String isReserved, Date lastUpdated) {
         this.slotId = slotId;
         this.slotStatus = slotStatus;
